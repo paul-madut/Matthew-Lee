@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Volition Properties</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <script src="https://unpkg.com/phosphor-icons@1.4.2"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html"><h2>Volition Properties</h2></a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="../index.html#services" class="nav-link">Services</a></li>
+                <li><a href="blog.html" class="nav-link">Insights</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="ph-list"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="contact-hero">
+            <div class="container">
+                <div class="contact-hero-content">
+                    <h1>Get in Touch</h1>
+                    <p>Ready to begin your real estate investment journey? Our team of experts is here to guide you every step of the way.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-main">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info-section">
+                        <h2>Let's Start a Conversation</h2>
+                        <p>Whether you're a first-time investor or looking to expand your portfolio, we're here to help you make informed decisions and achieve your financial goals.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="ph-phone"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Phone</h4>
+                                    <p>+1 (555) 123-4567</p>
+                                    <span>Mon-Fri 9AM-6PM EST</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="ph-envelope"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Email</h4>
+                                    <p>advisory@volitionproperties.com</p>
+                                    <span>Response within 24 hours</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="ph-map-pin"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Office</h4>
+                                    <p>432 Park Avenue<br>New York, NY 10016</p>
+                                    <span>By appointment only</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="ph-calendar"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Schedule a Call</h4>
+                                    <p>Book a 30-minute consultation</p>
+                                    <a href="#" class="schedule-link">View Available Times</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="office-hours">
+                            <h4>Office Hours</h4>
+                            <div class="hours-list">
+                                <div class="hours-item">
+                                    <span>Monday - Friday</span>
+                                    <span>9:00 AM - 6:00 PM</span>
+                                </div>
+                                <div class="hours-item">
+                                    <span>Saturday</span>
+                                    <span>10:00 AM - 4:00 PM</span>
+                                </div>
+                                <div class="hours-item">
+                                    <span>Sunday</span>
+                                    <span>Closed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-section">
+                        <form class="contact-form-main" id="contact-form-main">
+                            <div class="form-header">
+                                <h3>Send us a Message</h3>
+                                <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" id="firstName" name="firstName" required>
+                                    <label for="firstName">First Name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="lastName" name="lastName" required>
+                                    <label for="lastName">Last Name</label>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" required>
+                                    <label for="email">Email Address</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="phone" name="phone">
+                                    <label for="phone">Phone Number</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <select id="investmentType" name="investmentType" required>
+                                    <option value="">Select Investment Interest</option>
+                                    <option value="residential">Residential Properties</option>
+                                    <option value="commercial">Commercial Real Estate</option>
+                                    <option value="portfolio">Portfolio Management</option>
+                                    <option value="advisory">Investment Advisory</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <select id="investmentRange" name="investmentRange">
+                                    <option value="">Investment Range (Optional)</option>
+                                    <option value="250k-500k">$250K - $500K</option>
+                                    <option value="500k-1m">$500K - $1M</option>
+                                    <option value="1m-5m">$1M - $5M</option>
+                                    <option value="5m+">$5M+</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <label for="message">Tell us about your investment goals and any questions you have</label>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <label for="newsletter" class="checkbox-label">
+                                    I'd like to receive market insights and investment opportunities via email
+                                </label>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy" class="checkbox-label">
+                                    I agree to the <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn-primary submit-btn">
+                                <span>Send Message</span>
+                                <i class="ph-paper-plane-tilt"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="contact-faq">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-column">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>How quickly can I get started with an investment?</span>
+                                <i class="ph-plus faq-icon"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>After your initial consultation, we can typically identify suitable investment opportunities within 2-4 weeks. The timeline depends on your investment criteria and current market availability.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>What information do I need for the consultation?</span>
+                                <i class="ph-plus faq-icon"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Please bring your investment goals, risk tolerance preferences, timeline, and budget range. We'll handle the rest during our comprehensive assessment.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Do you work with first-time investors?</span>
+                                <i class="ph-plus faq-icon"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Absolutely! We specialize in educating and guiding first-time real estate investors through every step of the process, from strategy development to property management.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-column">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>What are your consultation fees?</span>
+                                <i class="ph-plus faq-icon"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Initial consultations are complimentary for qualified investors. Our fee structure is transparent and discussed during your first meeting, with fees only applying when you move forward with investments.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Can you help with financing and mortgages?</span>
+                                <i class="ph-plus faq-icon"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Yes, we have relationships with specialized lenders and can help you navigate financing options, including traditional mortgages, portfolio loans, and alternative financing structures.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Do you offer virtual consultations?</span>
+                                <i class="ph-plus faq-icon"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Yes, we offer secure video consultations for clients who prefer remote meetings or are located outside our immediate area. In-person meetings are available by appointment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="office-location">
+            <div class="container">
+                <h2 class="section-title">Visit Our Office</h2>
+                <div class="location-content">
+                    <div class="location-info">
+                        <h3>New York Headquarters</h3>
+                        <p>Located in the heart of Manhattan, our office provides a sophisticated environment for client meetings and consultations.</p>
+                        <div class="location-details">
+                            <div class="detail-item">
+                                <i class="ph-map-pin"></i>
+                                <span>432 Park Avenue, New York, NY 10016</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="ph-train"></i>
+                                <span>Accessible via 4, 5, 6, 7, S trains at Grand Central</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="ph-car"></i>
+                                <span>Valet parking available</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-placeholder">
+                        <div class="placeholder-map">
+                            <i class="ph-map-pin"></i>
+                            <p>Interactive Map</p>
+                            <span>432 Park Avenue, NYC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Volition Properties</h3>
+                    <p>Strategic real estate investment advisory for discerning investors.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="ph-instagram-logo"></i></a>
+                        <a href="#" class="social-link"><i class="ph-linkedin-logo"></i></a>
+                        <a href="#" class="social-link"><i class="ph-twitter-logo"></i></a>
+                        <a href="#" class="social-link"><i class="ph-facebook-logo"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Investment Advisory</a></li>
+                        <li><a href="#">Property Management</a></li>
+                        <li><a href="#">Realty Services</a></li>
+                        <li><a href="#">Market Analysis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Insights</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with market insights and investment opportunities.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn-secondary">
+                            <i class="ph-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Volition Properties. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Legal Notice</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+    <style>
+        /* Contact Page Specific Styles */
+        .contact-hero {
+            padding: 140px 0 80px;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+            color: var(--color-white);
+            text-align: center;
+        }
+
+        .contact-hero-content h1 {
+            font-size: var(--text-5xl);
+            margin-bottom: var(--space-6);
+            color: var(--color-white);
+        }
+
+        .contact-hero-content p {
+            font-size: var(--text-xl);
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .contact-main {
+            padding: var(--space-24) 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-16);
+            align-items: start;
+        }
+
+        .contact-info-section h2 {
+            margin-bottom: var(--space-4);
+        }
+
+        .contact-info-section > p {
+            font-size: var(--text-lg);
+            margin-bottom: var(--space-8);
+            line-height: var(--leading-relaxed);
+        }
+
+        .contact-methods {
+            margin-bottom: var(--space-12);
+        }
+
+        .contact-method {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--space-4);
+            margin-bottom: var(--space-8);
+            padding: var(--space-6);
+            background: var(--bg-secondary);
+            border-radius: var(--radius-xl);
+            transition: all var(--transition-normal);
+        }
+
+        .contact-method:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .method-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--color-accent);
+            border-radius: var(--radius-xl);
+            color: var(--color-white);
+            font-size: var(--text-2xl);
+            flex-shrink: 0;
+        }
+
+        .method-content h4 {
+            margin-bottom: var(--space-2);
+            color: var(--text-primary);
+        }
+
+        .method-content p {
+            margin-bottom: var(--space-1);
+            color: var(--text-primary);
+            font-weight: var(--font-weight-medium);
+        }
+
+        .method-content span {
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+        }
+
+        .schedule-link {
+            color: var(--color-accent);
+            font-weight: var(--font-weight-medium);
+            text-decoration: none;
+            transition: color var(--transition-fast);
+        }
+
+        .schedule-link:hover {
+            color: var(--color-accent-light);
+        }
+
+        .office-hours {
+            padding: var(--space-6);
+            background: var(--bg-secondary);
+            border-radius: var(--radius-xl);
+        }
+
+        .office-hours h4 {
+            margin-bottom: var(--space-4);
+            color: var(--text-primary);
+        }
+
+        .hours-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-2);
+        }
+
+        .hours-item {
+            display: flex;
+            justify-content: space-between;
+            padding: var(--space-2) 0;
+            border-bottom: 1px solid var(--color-gray-200);
+        }
+
+        .hours-item:last-child {
+            border-bottom: none;
+        }
+
+        .contact-form-main {
+            background: var(--color-white);
+            padding: var(--space-8);
+            border-radius: var(--radius-2xl);
+            box-shadow: var(--shadow-xl);
+            border: 1px solid var(--color-gray-200);
+        }
+
+        .form-header {
+            margin-bottom: var(--space-8);
+            text-align: center;
+        }
+
+        .form-header h3 {
+            margin-bottom: var(--space-3);
+            color: var(--text-primary);
+        }
+
+        .form-header p {
+            color: var(--text-secondary);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-4);
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--space-3);
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            width: auto;
+            margin: 0;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .checkbox-label {
+            position: static;
+            background: none;
+            padding: 0;
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+            line-height: var(--leading-relaxed);
+            transform: none;
+            pointer-events: all;
+        }
+
+        .checkbox-label a {
+            color: var(--color-accent);
+            text-decoration: underline;
+        }
+
+        .submit-btn {
+            width: 100%;
+            justify-content: center;
+            margin-top: var(--space-4);
+        }
+
+        .contact-faq {
+            background: var(--bg-secondary);
+        }
+
+        .faq-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-8);
+            margin-top: var(--space-12);
+        }
+
+        .faq-column {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-4);
+        }
+
+        .office-location {
+            background: var(--color-white);
+        }
+
+        .location-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-16);
+            align-items: center;
+            margin-top: var(--space-12);
+        }
+
+        .location-info h3 {
+            margin-bottom: var(--space-4);
+        }
+
+        .location-info p {
+            font-size: var(--text-lg);
+            margin-bottom: var(--space-6);
+            line-height: var(--leading-relaxed);
+        }
+
+        .location-details {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-4);
+        }
+
+        .detail-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            color: var(--text-secondary);
+        }
+
+        .detail-item i {
+            color: var(--color-accent);
+            font-size: var(--text-lg);
+        }
+
+        .map-placeholder {
+            height: 400px;
+        }
+
+        .placeholder-map {
+            height: 100%;
+            background: var(--color-gray-200);
+            border-radius: var(--radius-2xl);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+
+        .placeholder-map i {
+            font-size: var(--text-5xl);
+            margin-bottom: var(--space-4);
+            color: var(--color-accent);
+        }
+
+        .placeholder-map p {
+            font-size: var(--text-xl);
+            font-weight: var(--font-weight-medium);
+            margin-bottom: var(--space-2);
+        }
+
+        @media (max-width: 768px) {
+            .contact-hero-content h1 {
+                font-size: var(--text-4xl);
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: var(--space-8);
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .location-content {
+                grid-template-columns: 1fr;
+                gap: var(--space-8);
+            }
+        }
+    </style>
+</body>
+</html>
