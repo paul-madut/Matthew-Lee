@@ -47,7 +47,7 @@ export default function Navigation() {
                   href="/" 
                   className="text-gray-900 hover:text-[var(--color-accent)] px-3 py-2 text-base font-medium transition-colors duration-200 relative group"
                 >
-                  Home
+                  
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[var(--color-accent)] transition-all duration-200 group-hover:w-full"></span>
                 </Link>
                 <Link 
@@ -61,14 +61,14 @@ export default function Navigation() {
                   href="#services" 
                   className="text-gray-900 hover:text-[var(--color-accent)] px-3 py-2 text-base font-medium transition-colors duration-200 relative group"
                 >
-                  Services
+                  Construction Projects
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[var(--color-accent)] transition-all duration-200 group-hover:w-full"></span>
                 </a>
                 <Link 
                   href="/blog" 
                   className="text-gray-900 hover:text-[var(--color-accent)] px-3 py-2 text-base font-medium transition-colors duration-200 relative group"
                 >
-                  Insights
+                  Latest Updates
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[var(--color-accent)] transition-all duration-200 group-hover:w-full"></span>
                 </Link>
                 <Link 
@@ -115,7 +115,7 @@ export default function Navigation() {
               onClick={closeMobileMenu}
               className="text-gray-900 hover:text-[var(--color-accent)] hover:bg-gray-50 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
             >
-              Home
+              Investment Calculator
             </Link>
             <Link
               href="/about"

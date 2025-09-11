@@ -11,9 +11,9 @@ export default function Hero() {
 
   return (
     <section 
-      className="relative h-screen flex items-center bg-cover bg-center bg-no-repeat"
+      className="relative h-screen flex items-start pt-32 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `url('/sections/hero/hero.jpg')`
+        backgroundImage: `url('/sections/hero/hero.png')`
       }}
     >
       {/* Background Overlay */}
@@ -32,23 +32,20 @@ export default function Hero() {
             </div>
 
             {/* Main Heading */}
-            <div className={`space-y-4 transition-all duration-1000 delay-200 ${
+            <div className={`space-y-4 font-black transition-all duration-1000 delay-200 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light leading-tight tracking-tight text-[#014996]">
-                Together, let's
-                <br />
-                <span className="text-[#014996] font-medium">enhance</span>
-                <br />
-                your portfolio
+              <h1 className="text-4xl sm:text-4xl lg:text-5xl font-black leading-tight tracking-tight text-[#014996]">
+                TORONTO'S LEADING REAL ESTATE INVESTMENT ADVISORY & REALTY FIRM
+
               </h1>
             </div>
 
             {/* Description */}
-            <p className={`text-lg text-gray-100 leading-relaxed max-w-lg transition-all duration-1000 delay-400 ${
+            <p className={`text-lg text-[#014996] leading-relaxed max-w-lg transition-all duration-1000 delay-400 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}>
-              We guide you step by step for your real estate projects and investments.
+              Real Estate Investment Experts in Multi-Family, Luxury Multiplex Conversions, Laneway Housing, Condos, and Pre-Construction. All the services Private Real Estate Investors need in order to be successful in Toronto.
             </p>
 
             {/* CTA Button */}
@@ -56,7 +53,7 @@ export default function Hero() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}>
               <button className="group inline-flex items-center gap-3 px-8 py-4 bg-[#014996] text-white font-medium rounded-lg shadow-lg hover:shadow-xl hover:bg-[#1e5fab] transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#014996] focus:ring-offset-2">
-                <span>Get Started</span>
+                <span>Invest Now</span>
                 <svg 
                   className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-200" 
                   fill="none" 
